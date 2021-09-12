@@ -317,7 +317,7 @@ class TransparentWindow(Gtk.Window):
                     t.daemon = True
                     t.start()
                 else:
-                    self.lbl_stat.set_markup("<span size=\"x-large\"><b>Choose a wallpaper with shakalinux-betterlockscreen</b></span>")  # noqa
+                    self.lbl_stat.set_markup("<span size=\"x-large\"><b>Choose a wallpaper with arcolinux-betterlockscreen</b></span>")  # noqa
                     self.Ec.set_sensitive(True)
                     self.active = False
             else:
@@ -382,4 +382,4 @@ if __name__ == "__main__":
         w.show_all()
         Gtk.main()
     else:
-        print("shakalinux-logout did not close properly. Remove /tmp/shakalogout.lock with sudo.")
+        print("shaka-logout did not close properly. Remove /tmp/shakalogout.lock with sudo.")
