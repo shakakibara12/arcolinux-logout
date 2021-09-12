@@ -1,1 +1,1 @@
-# ArcoLinux logout
+# Shaka logout
